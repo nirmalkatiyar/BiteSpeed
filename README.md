@@ -18,3 +18,21 @@
 ├── README.md
 └── .gitignore
 ```
+**EndPoint URL**
+```https://bitespeed-assessment-cf7u.onrender.com/identify```
+**HTTP Method **
+```POST```
+**Sample JSON**
+```
+{
+    "phoneNumber": "123456",
+    "email": "lorraine@hillvalley.edu"
+}
+```
+**local machine Setup** 
+```
+1. Intall(if it is not there on machine) Go 1.18 or above (I have used 1.22.3).
+2. Navigate to cmd/server/
+3. use public dsn to the local machine with hosted database(here Postgres DB on render.com). 
+4. run the command ```go run main.go```
+```
