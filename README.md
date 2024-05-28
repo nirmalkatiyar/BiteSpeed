@@ -19,9 +19,15 @@
 └── .gitignore
 ```
 **EndPoint URL**
-```https://bitespeed-assessment-cf7u.onrender.com/identify```
+```
+https://bitespeed-assessment-cf7u.onrender.com/identify
+
+```
 **HTTP Method **
-```POST```
+```
+POST
+
+```
 **Sample JSON**
 ```
 {
